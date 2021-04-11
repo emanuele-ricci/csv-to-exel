@@ -1,0 +1,24 @@
+
+[COMPILE JAVASCRIPT FILE]
+
+install pkg module to compile javascript files with node.js 
+
+    $ npm install -g pkg
+
+
+use pkg module, it will create binary files for linux, windows and macos machines:
+
+    $ pkg csv-to-exel.js 
+
+alternativly specify a target machine:
+
+    node14-linux-x64, 
+    node14-macos-x64, 
+    node14-win-x64
+
+
+$ pkg -t node14-win-x64 csv-to-exel.js
+
+
+
+  
