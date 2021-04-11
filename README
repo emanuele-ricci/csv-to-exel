@@ -3,12 +3,13 @@
 
 The javascript files has been tested and used with node.js v14.16.0.
 All the dependencies installed are visible into package.json file.
+In order to use the converter without installing nodejs, compile javascript file (see compileJS file).
 
 [HOW TO USE]
 
 Run the script in the same folder where csv files are located. 
 
-The program will find automatically all csv files present inside the folder, also if other formats are present.
+The program will find and extract automatically only all csv present inside the folder, also if other files are present.
 
 It will create a new folder called 'Parsed' where the new files converted will be placed with the extension xlsx.
 
