@@ -1,6 +1,18 @@
 
-[README]
+[INFO]
 
-The javascript files has been tested and used with node.js v14.16.0
+The javascript files has been tested and used with node.js v14.16.0.
+All the dependencies installed are visible into package.json file.
+
+[HOW TO USE]
+
+Run the script in the same folder where csv files are located. 
+
+The program will find automatically all csv files present inside the folder, also if other formats are present.
+
+It will create a new folder called 'Parsed' where the new files converted will be placed with the extension xlsx.
+
+
+
 
 
